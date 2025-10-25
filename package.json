@@ -1,3 +1,13 @@
 {
-  "build": "env NODE_ENV=production npx eleventy --pathprefix 'small-soup-community'"
+  "name": "small-soup-community",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A tiny Eleventy site about small soups",
+  "scripts": {
+    "build": "NODE_ENV=production npx eleventy --pathprefix '/small-soup-community'"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  },
+  "license": "MIT"
 }
