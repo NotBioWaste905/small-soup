@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title or "Small Soup Community" }}</title>
-    <link rel="stylesheet" href="/css/bundle.css">
+    <link rel="stylesheet" href="{{ '/css/bundle.css' | url}} ">
 </head>
 <body>
     <nav style="margin-left: 80%;">
-        <a href="/">home</a>
-        <a href="/about">about</a>
-        <a href="/soups">soups</a>
+        <a href="{{ '/' | url }}">home</a>
+        <a href="{{ '/about' | url }}">about</a>
+        <a href="{{ '/soups' | url }}">soups</a>
     </nav>
     {{ content | safe }}
 </body>
