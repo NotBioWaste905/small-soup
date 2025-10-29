@@ -2,7 +2,8 @@
     font-family: monospace;
 }
 
-h1 {
+h1,
+h3 {
     margin-left: 10%;
 }
 
@@ -17,8 +18,15 @@ p {
     margin-right: 10%;
 }
 
+li {
+    font-size: 16px;
+    margin-left: 12%;
+    margin-right: 10%;
+}
+
 img {
-    /*max-width: 80%;*/
-    width: 100%;
+    max-width: 80%;
+    /*margin: 0%;*/
+    /*width: 100%;*/
     height: auto;
 }
